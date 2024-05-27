@@ -1,6 +1,4 @@
-Bien sûr, voici un quiz couvrant les concepts de Confidentialité, Intégrité et Disponibilité (CID) dans les systèmes d'information, avec des questions réparties selon les trois grandes catégories : Données sensibles/secrètes, Données confidentielles, et Données restreintes.
-
-### Quiz CID : Données sensibles/secrètes
+# Quiz CID : Données sensibles/secrètes
 
 **Exemples** : Données gouvernementales (finance, défense), données bancaires (numéro de carte bancaire), casiers judiciaires, protection des témoins.
 
@@ -25,7 +23,7 @@ Bien sûr, voici un quiz couvrant les concepts de Confidentialité, Intégrité 
         - c) Accès facilité aux informations bancaires
         - d) Augmentation des fraudes financières
 
-### Quiz CID : Données confidentielles
+# Quiz CID : Données confidentielles
 
 **Exemples** : Données relatives au métier de l’entreprise (conception d’un nouveau produit, secrets administratifs), données relatives aux employés (salaire, données personnelles), renseignements personnels (santé, santé mentale).
 
@@ -50,7 +48,7 @@ Bien sûr, voici un quiz couvrant les concepts de Confidentialité, Intégrité 
         - c) En augmentant la satisfaction des employés
         - d) En facilitant le recrutement
 
-### Quiz CID : Données restreintes
+# Quiz CID : Données restreintes
 
 **Exemples** : Données accessibles à une catégorie limitée d’employés (élaboration d’un plan de cadre).
 
@@ -125,4 +123,3 @@ Bien sûr, voici un quiz couvrant les concepts de Confidentialité, Intégrité 
         - c) Augmentation de la satisfaction des employés
         - d) Facilitation de l'accès aux données
 
-Ce quiz devrait permettre de vérifier la compréhension des étudiants sur les concepts de Confidentialité, Intégrité et Disponibilité et leur application dans différents contextes de gestion des systèmes d'information.
