@@ -3,7 +3,7 @@
 ## Aperçu
 Ce cours propose une exploration approfondie des technologies et pratiques de sécurité de l'information, en mettant l'accent sur des stratégies essentielles pour protéger les infrastructures informatiques contre les menaces et les vulnérabilités.
 
-## Déroulement Semaine par Semaine
+## Déroulement 
 
 # **Partie 1 : Vue d'ensemble de la prévention et sécurité de l'information**
 - Introduction aux fondements de la cybersécurité, incluant la terminologie, les concepts clés et l'importance de la sécurité de l'information dans le contexte actuel.
