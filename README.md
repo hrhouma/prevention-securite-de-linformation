@@ -1,7 +1,7 @@
-# Plan de Cours : Sécurité et Prévention de l'Information
+# Plan de la Formation : Sécurité et Prévention de l'Information
 
 ## Aperçu
-Ce cours propose une exploration approfondie des technologies et pratiques de sécurité de l'information, en mettant l'accent sur des stratégies essentielles pour protéger les infrastructures informatiques contre les menaces et les vulnérabilités.
+Cette formation propose une exploration approfondie des technologies et pratiques de sécurité de l'information, en mettant l'accent sur des stratégies essentielles pour protéger les infrastructures informatiques contre les menaces et les vulnérabilités.
 
 ## Déroulement 
 
