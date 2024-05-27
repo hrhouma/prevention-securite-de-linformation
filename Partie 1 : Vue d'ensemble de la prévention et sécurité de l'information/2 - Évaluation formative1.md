@@ -1,6 +1,5 @@
-Voici une série de questions basées sur les concepts de Confidentialité, Intégrité et Disponibilité (CID) dans les systèmes d'information, réparties en trois grandes catégories : Données sensibles/secrètes, Données confidentielles, et Données restreintes. Chaque catégorie inclut des exemples pertinents et des questions pour évaluer la compréhension des impacts et des mesures de sécurité associées.
-
-### Catégorie 1 : Données sensibles/secrètes
+# Comprendre la confidentialité des données !
+# Catégorie 1 : Données sensibles/secrètes
 
 **Exemples** : Données gouvernementales (finance, défense), données bancaires (numéro de carte bancaire), casiers judiciaires, protection des témoins.
 
@@ -18,7 +17,7 @@ Voici une série de questions basées sur les concepts de Confidentialité, Int�
     - Quels seraient les impacts d'une attaque visant à rendre les données financières gouvernementales indisponibles ?
     - Comment garantir la disponibilité des informations sensibles dans les situations d'urgence ?
 
-### Catégorie 2 : Données confidentielles
+# Catégorie 2 : Données confidentielles
 
 **Exemples** : Données relatives au métier de l’entreprise (conception d’un nouveau produit, secrets administratifs), données relatives aux employés (salaire, données personnelles), renseignements personnels (santé, santé mentale).
 
@@ -36,7 +35,7 @@ Voici une série de questions basées sur les concepts de Confidentialité, Int�
     - Comment une interruption d'accès aux dossiers personnels des employés peut-elle affecter une entreprise ?
     - Quelles stratégies peuvent être mises en place pour assurer la disponibilité des informations relatives à la santé des employés en cas de panne de système ?
 
-### Catégorie 3 : Données restreintes
+# Catégorie 3 : Données restreintes
 
 **Exemples** : Données accessibles à une catégorie limitée d’employés (élaboration d’un plan de cadre).
 
@@ -90,4 +89,3 @@ Voici une série de questions basées sur les concepts de Confidentialité, Int�
     - Quels seraient les effets d'une indisponibilité prolongée des données critiques sur les opérations quotidiennes d'une entreprise ?
     - Quelles mesures préventives peuvent être mises en place pour minimiser l'impact d'une attaque sur la disponibilité des données ?
 
-Ces questions couvrent un large éventail de scénarios et de préoccupations liées à la sécurité des données, et devraient permettre une discussion approfondie sur les aspects de la Confidentialité, de l'Intégrité et de la Disponibilité dans les systèmes d'information.
