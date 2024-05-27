@@ -5,46 +5,134 @@ Cette formation propose une exploration approfondie des technologies et pratique
 
 ## Déroulement 
 
-# **Partie 1 : Vue d'ensemble de la prévention et sécurité de l'information**
-- Introduction aux fondements de la cybersécurité, incluant la terminologie, les concepts clés et l'importance de la sécurité de l'information dans le contexte actuel.
-- Discussion sur l'évolution des menaces de sécurité et l'impact des failles de sécurité sur les organisations.
+### **Partie 1 : Vue d'ensemble de la prévention et sécurité de l'information**
+- **Introduction à la Cybersécurité**
+  - Définition et importance de la sécurité de l'information
+  - Terminologie et concepts clés (CIA: Confidentialité, Intégrité, Disponibilité)
+  - Rôles et responsabilités en sécurité de l'information
 
-# **Partie 2 : Inventaire des équipements et des applications**
-- Apprentissage des méthodes pour réaliser un inventaire précis des actifs informatiques, y compris les dispositifs physiques et logiciels.
-- Discussion sur la gestion de l'inventaire comme un aspect critique de la stratégie de sécurité, en soulignant l'importance de la mise à jour régulière de l'inventaire pour détecter et réagir rapidement aux vulnérabilités.
+- **Évolution des Menaces de Sécurité**
+  - Historique des cybermenaces et tendances actuelles
+  - Impacts des failles de sécurité sur les organisations (financier, opérationnel, réputation)
 
-# **Partie 3 : Introduction aux attaques les plus connues**
-- Analyse détaillée des attaques courantes, y compris le phishing, les malwares, les ransomwares, et les attaques par force brute.
-- Exploration des méthodologies utilisées par les attaquants et des mesures de prévention efficaces, avec des études de cas réels pour illustrer ces points.
+### **Partie 2 : Inventaire des équipements et des applications**
+- **Réalisation de l'Inventaire**
+  - Méthodes pour cataloguer les dispositifs physiques (serveurs, postes de travail, périphériques)
+  - Techniques pour inventorier les logiciels et applications
 
-# **Partie 4 : Évaluation des risques des différentes attaques**
-- Introduction aux principes de l'évaluation des risques en sécurité de l'information.
-- Techniques pour identifier, évaluer et atténuer les risques, incluant la création de matrices de risque et l'utilisation de logiciels d'évaluation des risques.
+- **Gestion de l'Inventaire**
+  - Importance de la mise à jour régulière de l'inventaire
+  - Utilisation de logiciels de gestion d'actifs pour détecter les vulnérabilités
+  - Études de cas d'incidents dus à des inventaires obsolètes
 
-# **Partie 5 : Reprise de cours suite à une pause programmée**
-- Continuation des sujets abordés avant la pause, avec un focus renouvelé sur l'application pratique des connaissances.
+### **Partie 3 : Introduction aux attaques les plus connues**
+- **Analyse des Attaques Courantes**
+  - Phishing : techniques et prévention
+  - Malware et ransomware : types, vecteurs d'infection, mesures de protection
+  - Attaques par force brute : méthodologies et contre-mesures
 
-# **Partie 6 : Prévention des vulnérabilités du réseau**
-- Identification des vulnérabilités réseau spécifiques et des stratégies pour les prévenir, y compris la segmentation du réseau, le cryptage des données en transit, et l'utilisation de VPNs.
-- Installation et configuration de pare-feu avancés et systèmes de détection des intrusions, avec une pratique en laboratoire.
+- **Études de Cas**
+  - Exemples réels d'attaques et analyses des conséquences
+  - Discussion des erreurs commises et leçons apprises
 
-# **Partie 7 : Prévention des vulnérabilités des applications**
-- Introduction aux principes du développement sécurisé, y compris la programmation défensive et les revues de code de sécurité.
-- Utilisation d'outils modernes pour l'analyse statique et dynamique du code afin d'identifier les vulnérabilités dans les applications.
+### **Partie 4 : Évaluation des risques des différentes attaques**
+- **Principes de l'Évaluation des Risques**
+  - Identification des menaces et vulnérabilités
+  - Méthodologies d'évaluation des risques (qualitative, quantitative)
 
-# **Partie 8 : Laboratoire 1 : Gestion des accès et des sauvegardes**
-- Mise en pratique des concepts de gestion des accès avec des scénarios simulés pour configurer des politiques de contrôle d'accès basées sur les rôles.
-- Techniques pour la mise en œuvre de stratégies de sauvegarde et de récupération, incluant les sauvegardes incrémentielles et les tests de restauration.
+- **Techniques d'Atténuation des Risques**
+  - Création de matrices de risque
+  - Utilisation de logiciels d'évaluation des risques
+  - Développement de plans de gestion des risques
 
-# **Partie 9 : Gestion des permissions et des accès**
-- Approfondissement des stratégies pour une gestion efficace des permissions utilisateur et la sécurisation des environnements d'accès.
-- Exploration des solutions de gestion des identités et des accès (IAM) et de gestion des privilèges utilisateur (PAM).
+### **Partie 5 : Prévention des vulnérabilités du réseau**
+- **Vulnérabilités Réseau Spécifiques**
+  - Segmentation du réseau et isolation des systèmes critiques
+  - Cryptage des données en transit (SSL/TLS, VPN)
 
-# **Partie 10 : Sauvegarde et restauration des systèmes et des données**
-- Discussions approfondies sur les meilleures pratiques de sauvegarde, les solutions de stockage sécurisé et les protocoles de restauration.
-- Planification et mise en œuvre de simulations de reprise après sinistre pour tester l'efficacité des stratégies de sauvegarde en conditions réelles.
+- **Pare-feu et Systèmes de Détection des Intrusions**
+  - Installation et configuration de pare-feu avancés
+  - Pratique en laboratoire de l'utilisation des IDS/IPS
 
-# **Partie 11 : Révision et consolidation des connaissances**
-- Révision des principaux concepts abordés tout au long du cours avec des exemples pratiques et des scénarios de simulation.
-- Sessions de questions-réponses pour clarifier les doutes et renforcer la compréhension des sujets complexes.
+### **Partie 6 : Prévention des vulnérabilités des applications**
+- **Développement Sécurisé**
+  - Programmation défensive et meilleures pratiques
+  - Revue de code de sécurité et audits de sécurité
 
+- **Analyse du Code**
+  - Utilisation d'outils d'analyse statique (ex. : SonarQube)
+  - Analyse dynamique pour identifier les failles de sécurité pendant l'exécution
+
+### **Partie 7 : Laboratoire 1 : Gestion des accès et des sauvegardes**
+- **Gestion des Accès**
+  - Configuration des politiques de contrôle d'accès basé sur les rôles (RBAC)
+  - Scénarios simulés pour la gestion des permissions utilisateur
+
+- **Stratégies de Sauvegarde et de Récupération**
+  - Types de sauvegardes (complètes, incrémentielles, différentielles)
+  - Planification et exécution des tests de restauration
+
+### **Partie 8 : Gestion des permissions et des accès**
+- **Gestion Efficace des Permissions**
+  - Stratégies pour une gestion granulaire des permissions utilisateur
+  - Sécurisation des environnements d'accès (authentification multi-facteurs)
+
+- **Solutions de Gestion des Accès**
+  - Introduction aux systèmes IAM (Identity and Access Management)
+  - Gestion des privilèges utilisateur (PAM - Privileged Access Management)
+
+### **Partie 9 : Sauvegarde et restauration des systèmes et des données**
+- **Meilleures Pratiques de Sauvegarde**
+  - Choix des solutions de stockage sécurisé
+  - Protocoles et fréquences de sauvegarde
+
+- **Simulations de Reprise Après Sinistre**
+  - Planification de scénarios de crise
+  - Tests de restauration en conditions réelles pour valider les stratégies de sauvegarde
+
+### **Partie 10 : Sécurité des Bases de Données**
+- **Principes de Sécurité des Bases de Données**
+  - Contrôles d'accès et gestion des privilèges
+  - Chiffrement des données stockées
+
+- **Détection et Prévention des Intrusions**
+  - Utilisation de systèmes de détection d'intrusion pour bases de données (DBIDS)
+  - Stratégies de réponse aux incidents de sécurité
+
+### **Partie 11 : Sécurité des Applications Web**
+- **Principes de Sécurité des Applications Web**
+  - OWASP Top Ten : Principales vulnérabilités des applications web
+  - Techniques de mitigation (ex. : injections SQL, XSS, CSRF)
+
+- **Tests de Sécurité des Applications**
+  - Introduction aux tests de pénétration (pentesting)
+  - Utilisation de frameworks et outils (ex. : Metasploit, Burp Suite)
+
+### **Partie 12 : Sécurité Mobile et Cloud**
+- **Sécurité des Applications Mobiles**
+  - Vulnérabilités spécifiques aux environnements mobiles
+  - Meilleures pratiques de sécurisation des applications mobiles
+
+- **Sécurité des Environnements Cloud**
+  - Modèles de responsabilité partagée
+  - Sécurisation des services cloud (IaaS, PaaS, SaaS)
+
+### **Partie 13 : Conformité et Réglementation**
+- **Conformité aux Normes et Règlementations**
+  - Principales normes de sécurité (ex. : ISO 27001, GDPR, HIPAA)
+  - Stratégies pour assurer la conformité réglementaire
+
+- **Gestion des Audits de Sécurité**
+  - Préparation et conduite d'audits de sécurité
+  - Documentation et rapports de conformité
+
+### **Partie 14 : Atelier Final et Examen**
+- **Atelier Pratique**
+  - Application des connaissances à travers un projet pratique de bout en bout
+  - Scénarios de simulation d'attaque et réponse aux incidents
+
+- **Examen Final**
+  - Évaluation des compétences acquises à travers un examen théorique et pratique
+  - Certification de réussite pour les participants ayant complété la formation avec succès
+
+Ce plan de cours exhaustif offre une couverture complète des aspects critiques de la sécurité de l'information, combinant théorie, pratique et application réelle pour préparer les participants à protéger efficacement les infrastructures informatiques contre les menaces actuelles et émergentes.
