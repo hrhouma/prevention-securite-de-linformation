@@ -1,5 +1,3 @@
-# README : Vue d'ensemble de la prévention et sécurité de l'information
-
 # Partie 1 : Vue d'ensemble de la prévention et sécurité de l'information
 
 # Introduction
