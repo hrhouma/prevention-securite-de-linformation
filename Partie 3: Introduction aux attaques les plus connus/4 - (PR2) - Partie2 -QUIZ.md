@@ -1,7 +1,3 @@
-Voici un guide détaillé pour installer Wiki.js sur Ubuntu 22.04 LTS, adapté pour des étudiants :
-
----
-
 # Installer Wiki.js sur Ubuntu 22.04 LTS
 
 Ubuntu 22.04 LTS (iso)
