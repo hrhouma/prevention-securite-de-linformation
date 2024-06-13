@@ -123,9 +123,11 @@ bindIP: 127.0.0.1
 
 ## Création d'un service systemd
 
-Créez un service pour gérer Wiki.js :
+- Avant de créer le service, il est important de revenir à l'utilisateur principal root en utilisant la commande su
+- Créez un service pour gérer Wiki.js :
 
 ```bash
+su
 sudo nano /etc/systemd/system/wikijs.service
 ```
 
