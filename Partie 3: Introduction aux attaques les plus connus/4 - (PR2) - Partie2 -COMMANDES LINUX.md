@@ -71,15 +71,20 @@ EXIT;
 
 Créez un utilisateur et un dossier pour Wiki.js :
 
-```bash
+### Créez un utilisateur et un dossier pour Wiki.js :
+```sh
 sudo adduser --system --group wikijs
 sudo mkdir -p /var/www/wikijs
 sudo chown wikijs:wikijs /var/www/wikijs
 ```
 
-Téléchargez et installez Wiki.js :
+### Modifiez le shell de l'utilisateur `wikijs` pour permettre la connexion :
+```sh
+sudo usermod -s /bin/bash wikijs
+```
 
-```bash
+### Téléchargez et installez Wiki.js :
+```sh
 sudo su - wikijs
 cd /var/www/wikijs
 wget https://github.com/Requarks/wiki/releases/latest/download/wiki-js.tar.gz
@@ -88,7 +93,6 @@ rm wiki-js.tar.gz
 cp config.sample.yml config.yml
 nano config.yml
 ```
-
 Configurez le fichier `config.yml` pour utiliser MariaDB.
 
 ## Création d'un service systemd
