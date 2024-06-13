@@ -49,17 +49,26 @@ Installez MariaDB pour gérer les données de Wiki.js :
 
 ```bash
 sudo apt install mariadb-server mariadb-client
-sudo systemctl status mariadb
 sudo systemctl start mariadb
 sudo systemctl enable mariadb
-sudo systemctl status mariadb
 sudo mariadb-secure-installation
 ```
 
-Connectez-vous à MariaDB et configurez la base de données :
+Renforcez l'instance à l'aide de la commande :
+
+```bash
+sudo mariadb-secure-installation
+```
+
+Suivez les instructions pour sécuriser l'installation de MariaDB. Ensuite, connectez-vous à MariaDB et configurez la base de données :
 
 ```bash
 sudo mysql -u root -p
+```
+
+Dans le shell MariaDB, exécutez les commandes suivantes :
+
+```sql
 CREATE DATABASE wikidb;
 CREATE USER 'wikidb_user'@'localhost' IDENTIFIED BY 'PASSWORD';
 GRANT ALL PRIVILEGES ON wikidb.* TO 'wikidb_user'@'localhost';
@@ -72,6 +81,7 @@ EXIT;
 Créez un utilisateur et un dossier pour Wiki.js :
 
 ### Créez un utilisateur et un dossier pour Wiki.js :
+
 ```sh
 sudo adduser --system --group wikijs
 sudo mkdir -p /var/www/wikijs
@@ -79,11 +89,13 @@ sudo chown wikijs:wikijs /var/www/wikijs
 ```
 
 ### Modifiez le shell de l'utilisateur `wikijs` pour permettre la connexion :
+
 ```sh
 sudo usermod -s /bin/bash wikijs
 ```
 
 ### Téléchargez et installez Wiki.js :
+
 ```sh
 sudo su - wikijs
 cd /var/www/wikijs
@@ -93,7 +105,21 @@ rm wiki-js.tar.gz
 cp config.sample.yml config.yml
 nano config.yml
 ```
-Configurez le fichier `config.yml` pour utiliser MariaDB.
+
+Configurez le fichier `config.yml` pour utiliser MariaDB :
+
+```yaml
+db:
+  type: mariadb
+  host: localhost
+  port: 3306
+  user: wikidb_user
+  pass: PASSWORD
+  db: wikidb
+  ssl: false
+
+bindIP: 127.0.0.1
+```
 
 ## Création d'un service systemd
 
