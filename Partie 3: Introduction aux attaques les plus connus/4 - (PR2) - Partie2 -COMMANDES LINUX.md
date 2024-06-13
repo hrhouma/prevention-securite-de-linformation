@@ -60,6 +60,9 @@ Renforcez l'instance à l'aide de la commande :
 sudo mariadb-secure-installation
 ```
 
+![image](https://github.com/hrhouma/prevention-securite-de-linformation/assets/10111526/606a21b0-d0ef-4b3a-abb6-1a0c8c6e220b)
+
+
 Suivez les instructions pour sécuriser l'installation de MariaDB. Ensuite, connectez-vous à MariaDB et configurez la base de données :
 
 ```bash
