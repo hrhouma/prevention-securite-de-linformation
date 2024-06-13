@@ -142,6 +142,7 @@ After=network.target
 Type=simple
 ExecStart=/usr/bin/node server
 Restart=always
+
 User=wikijs
 Environment=NODE_ENV=production
 WorkingDirectory=/var/www/wikijs
