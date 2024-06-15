@@ -53,4 +53,69 @@ La gestion des vulnérabilités est un processus fondamental en cybersécurité.
 
 ### Conclusion
 
-La gestion des vulnérabilités est un processus continu et essentiel pour assurer la sécurité des systèmes d'information. En suivant les étapes de découverte, rapport, réception, correction, vérification et publication, les organisations peuvent renforcer leur posture de sécurité et protéger leurs actifs contre les cybermenaces potentielles. Ce processus nécessite une collaboration étroite entre les chercheurs en sécurité, les éditeurs de logiciels et les responsables de la sécurité informatique pour garantir une réponse rapide et efficace aux nouvelles vulnérabilités.
+- La gestion des vulnérabilités est un processus continu et essentiel pour assurer la sécurité des systèmes d'information. En suivant les étapes de découverte, rapport, réception, correction, vérification et publication, les organisations peuvent renforcer leur posture de sécurité et protéger leurs actifs contre les cybermenaces potentielles. Ce processus nécessite une collaboration étroite entre les chercheurs en sécurité, les éditeurs de logiciels et les responsables de la sécurité informatique pour garantir une réponse rapide et efficace aux nouvelles vulnérabilités.
+
+# 2 - Outils
+
+### Exemple de Logiciels Utilisés dans Chaque Phase de Gestion des Vulnérabilités
+
+| **Phase**            | **Logiciels**                                                                                               | **Description**                                                                                      |
+|----------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| **Découverte**       | - **Nessus**                                                                                                 | Un scanner de vulnérabilités qui identifie les failles de sécurité dans les systèmes et les réseaux.  |
+|                      | - **OpenVAS**                                                                                               | Un outil open source pour la gestion et le scanning des vulnérabilités.                               |
+|                      | - **Metasploit**                                                                                            | Un framework pour les tests de pénétration et l'exploitation de vulnérabilités.                       |
+|                      | - **BeEF (Browser Exploitation Framework)**                                                                 | Un outil pour tester les vulnérabilités de sécurité des navigateurs web.                              |
+|                      | - **Recon-ng**                                                                                              | Un outil de reconnaissance web écrit en Python.                                                      |
+| **Rapport**          | - **Dradis**                                                                                                | Un outil de collaboration pour les tests de sécurité, facilitant la rédaction de rapports.            |
+|                      | - **Faraday**                                                                                               | Une plateforme collaborative de tests de sécurité qui aide à centraliser les résultats des scans.     |
+|                      | - **TheHive**                                                                                               | Une plateforme pour gérer les incidents de sécurité et les vulnérabilités avec des rapports détaillés. |
+| **Réception**        | - **JIRA**                                                                                                  | Un outil de gestion de projet souvent utilisé pour suivre la réception et la correction des bugs.     |
+|                      | - **ServiceNow**                                                                                            | Un outil de gestion des services informatiques pour gérer les incidents et les vulnérabilités.        |
+|                      | - **Zendesk**                                                                                               | Un logiciel de support client qui peut être utilisé pour gérer les tickets de vulnérabilités.         |
+| **Correction**       | - **Patch Management Tools (ex: WSUS, SCCM)**                                                               | Des outils de gestion de correctifs pour déployer des mises à jour de sécurité sur les systèmes.      |
+|                      | - **Chef, Puppet, Ansible**                                                                                 | Des outils de gestion de configuration pour automatiser le déploiement des correctifs.                |
+|                      | - **Qualys Patch Management**                                                                               | Une solution cloud pour gérer les correctifs de sécurité.                                             |
+| **Vérification**     | - **Retest avec Nessus, OpenVAS**                                                                           | Utilisation de scanners pour vérifier que les correctifs ont bien été appliqués.                      |
+|                      | - **Burp Suite**                                                                                            | Un outil de test de sécurité des applications web pour vérifier les correctifs appliqués.             |
+|                      | - **Nmap**                                                                                                  | Un scanner réseau pour vérifier que les vulnérabilités ont été corrigées et les ports sécurisés.      |
+| **Publication**      | - **Wiki.js**                                                                                               | Un système de gestion de contenu open source pour documenter et publier les informations de sécurité. |
+|                      | - **Security Advisories (ex: Microsoft Security Bulletins)**                                                | Publications formelles des correctifs et des informations sur les vulnérabilités.                     |
+|                      | - **Exploit Database**                                                                                      | Une base de données en ligne des vulnérabilités et des exploits publiés.                              |
+|                      | - **Full Disclosure Mailing List**                                                                          | Une liste de diffusion pour la divulgation publique des vulnérabilités.                               |
+
+### Détails des Logiciels Utilisés
+
+#### Découverte
+- **Nessus** : Un scanner de vulnérabilités commercial qui offre une analyse approfondie des systèmes et réseaux pour identifier les failles de sécurité.
+- **OpenVAS** : Un outil open source pour la gestion des vulnérabilités, capable de scanner et d'identifier les failles dans divers systèmes.
+- **Metasploit** : Utilisé pour les tests de pénétration, il permet de simuler des attaques réelles pour identifier les points faibles.
+- **BeEF** : Spécialisé dans l'exploitation des failles des navigateurs, cet outil est utilisé pour tester la sécurité des applications web.
+- **Recon-ng** : Un outil de reconnaissance et de collecte d'informations sur les cibles potentielles.
+
+#### Rapport
+- **Dradis** : Facilite la collaboration entre les équipes de sécurité en centralisant les informations sur les tests de sécurité et les résultats des scans.
+- **Faraday** : Une plateforme qui permet de centraliser les résultats des tests de sécurité et de faciliter la collaboration entre les équipes.
+- **TheHive** : Utilisé pour gérer les incidents de sécurité, cet outil permet de générer des rapports détaillés sur les vulnérabilités découvertes.
+
+#### Réception
+- **JIRA** : Utilisé pour suivre les problèmes et les bugs, il permet aux équipes de sécurité de gérer la réception et la correction des vulnérabilités.
+- **ServiceNow** : Offre des fonctionnalités de gestion des services informatiques, y compris la gestion des incidents de sécurité.
+- **Zendesk** : Utilisé pour la gestion des tickets, il permet de suivre et de gérer les rapports de vulnérabilités.
+
+#### Correction
+- **WSUS, SCCM** : Outils de Microsoft pour la gestion des mises à jour et des correctifs de sécurité.
+- **Chef, Puppet, Ansible** : Outils de gestion de configuration qui automatisent le déploiement des correctifs de sécurité.
+- **Qualys Patch Management** : Une solution cloud pour gérer et déployer les correctifs de sécurité.
+
+#### Vérification
+- **Nessus, OpenVAS** : Utilisés pour rescaner les systèmes après l'application des correctifs afin de vérifier leur efficacité.
+- **Burp Suite** : Un outil de test de sécurité des applications web pour s'assurer que les vulnérabilités ont été correctement corrigées.
+- **Nmap** : Utilisé pour vérifier les configurations réseau et s'assurer que les correctifs de sécurité ont été appliqués correctement.
+
+#### Publication
+- **Wiki.js** : Un système de gestion de contenu open source pour documenter et publier les informations de sécurité. Il permet de créer une base de connaissances structurée et facilement accessible.
+- **Security Advisories** : Les bulletins de sécurité publiés par les éditeurs pour informer les utilisateurs des vulnérabilités et des correctifs.
+- **Exploit Database** : Une base de données en ligne où les vulnérabilités et les exploits sont publiés.
+- **Full Disclosure Mailing List** : Une liste de diffusion où les chercheurs et les éditeurs peuvent publier des informations sur les vulnérabilités découvertes et corrigées.
+
+- Ce tableau et ces descriptions montrent comment différents logiciels et outils sont utilisés à chaque étape de la gestion des vulnérabilités pour assurer la sécurité des systèmes d'information. Wiki.js, en particulier, est un excellent outil pour centraliser et publier des informations sur les vulnérabilités et les correctifs, offrant ainsi une ressource précieuse pour les équipes de sécurité et les utilisateurs.
