@@ -3,7 +3,12 @@
 
 # 1 - Processus de Gestion des Vulnérabilités
 
-La gestion des vulnérabilités est un processus fondamental en cybersécurité. Elle comprend plusieurs étapes cruciales pour garantir que les systèmes d'information restent sécurisés contre les cybermenaces. Voici une description détaillée de chaque étape du processus.
+- La gestion des vulnérabilités est un processus fondamental en cybersécurité. Elle comprend plusieurs étapes cruciales pour garantir que les systèmes d'information restent sécurisés contre les cybermenaces. 
+
+![image](https://github.com/hrhouma/prevention-securite-de-linformation/assets/10111526/91264a43-65d5-423b-979e-243fc6a893a9)
+
+
+- Voici une description détaillée de chaque étape du processus.
 
 1. **Découverte**
    - **Définition**: La découverte de vulnérabilités consiste à identifier les failles de sécurité potentielles dans les systèmes, les logiciels ou les composants matériels. Cette étape peut être effectuée par des équipes internes de sécurité, des chercheurs externes ou des sociétés spécialisées en cybersécurité.
