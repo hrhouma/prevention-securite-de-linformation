@@ -1,5 +1,6 @@
 # Gestion des Vulnérabilités en Cybersécurité
 
+- Référence : https://www.orangecyberdefense.com/fr/insights/blog/gestion-des-vulnerabilites/vulnerabilites-de-quoi-parle-t-on
 
 # 1 - Processus de Gestion des Vulnérabilités
 
@@ -124,3 +125,19 @@
 - **Full Disclosure Mailing List** : Une liste de diffusion où les chercheurs et les éditeurs peuvent publier des informations sur les vulnérabilités découvertes et corrigées.
 
 - Ce tableau et ces descriptions montrent comment différents logiciels et outils sont utilisés à chaque étape de la gestion des vulnérabilités pour assurer la sécurité des systèmes d'information. Wiki.js, en particulier, est un excellent outil pour centraliser et publier des informations sur les vulnérabilités et les correctifs, offrant ainsi une ressource précieuse pour les équipes de sécurité et les utilisateurs.
+
+# Références :
+- https://www.orangecyberdefense.com/fr/insights/blog/gestion-des-vulnerabilites/vulnerabilites-de-quoi-parle-t-on
+- https://www.geeksforgeeks.org/recon-ng-installation-on-kali-linux/
+- https://www.javatpoint.com/recon-ng-information-gathering-tool-in-kali-linux
+- https://www.kali.org/tools/recon-ng/
+- https://manpages.ubuntu.com/manpages/bionic/man1/recon-ng.1.html
+- https://www.kali.org/docs/introduction/should-i-use-kali-linux/
+- https://medium.com/@Infosec-Train/why-do-hackers-use-kali-linux5217e95e7a97#:~:text=Hackers%20use%20Kali%20Linux%20as,hacking%20for%20the%20first%20time.
+- https://www.orangecyberdefense.com/fr/insights/blog/gestion-des-vulnerabilites/vulnerabilites-de-quoi-parle-t-on
+- https://www.linkedin.com/pulse/cyber-s%C3%A9curit%C3%A9-les-diff%C3%A9rentes-%C3%A9tapes-dune-attaque-franque-tsue/
+- https://www.netscout.com/ddos-attack-map
+- https://cybermap.kaspersky.com/fr
+- https://unix.stackexchange.com/questions/244970/opening-current-directory-from-a-terminal-onto-a-file-browser
+
+
