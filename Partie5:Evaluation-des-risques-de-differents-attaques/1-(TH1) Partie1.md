@@ -1,4 +1,4 @@
-# Cours sur les Cybermenaces et les Risques
+# Les Cybermenaces et leurs impacts - évaluation des risques
 
 #### Introduction
 La cybersécurité est devenue une priorité absolue à mesure que notre monde devient de plus en plus interconnecté. Les entreprises, les gouvernements et les particuliers sont constamment exposés à divers types de cyberattaques, mettant en péril les données sensibles, la continuité des activités et la confiance des clients. Ce cours explore les principales cybermenaces, les types d'attaques courantes, les impacts financiers et opérationnels, ainsi que les mesures de prévention et de réponse.
