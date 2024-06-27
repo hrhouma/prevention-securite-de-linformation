@@ -65,4 +65,4 @@ Répondez à chaque question de manière claire et concise. Utilisez des exemple
 | Question 15 : Étude de cas réel et analyse           | 30            |                |
 | **Total**                                            | 300           |                |
 
-Cette grille d'évaluation permettra de noter les réponses des étudiants de manière équitable et cohérente, en s'assurant qu'ils ont bien compris les concepts d'inventaire, les types d'attaques, et l'évaluation des risques en cybersécurité.
+
