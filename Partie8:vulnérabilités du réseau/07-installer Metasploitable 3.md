@@ -76,3 +76,34 @@ Pour les tests d'exploitation de clients Windows, vous pouvez obtenir des machin
 ### Conclusion :
 
 En suivant ces étapes, vous serez en mesure de configurer rapidement et facilement Metasploitable3 sous Windows à l'aide de PowerShell, Git, Packer, Vagrant et VirtualBox. Assurez-vous de suivre les instructions spécifiques dans le repository Metasploitable3 pour obtenir l'image nécessaire et configurer correctement votre environnement de test d'intrusion.
+
+# Résumé
+Voici les commandes essentielles pour installer Metasploitable3 sous Windows, présentées dans un format de script avec les commentaires pour chaque commande :
+
+```plaintext
+# Installer Chocolatey
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+# Installer Git via Chocolatey
+choco install git -y
+
+# Télécharger et installer l'exécutable de Vagrant
+https://www.vagrantup.com/
+# Installer Packer via Chocolatey
+choco install packer -y
+
+# Cloner le repository Metasploitable3
+git clone https://github.com/rapid7/metasploitable3.git
+cd .\metasploitable3\
+
+# Ajouter l'image à Vagrant
+vagrant box add jbarnett-r7/metasploitable3-win2k8
+
+# Initialiser et démarrer la VM
+vagrant init jbarnett-r7/metasploitable3-win2k8
+vagrant up
+
+# Connexion à la machine virtuelle avec les identifiants par défaut
+# Utilisateur : vagrant
+# Mot de passe : vagrant
+```
