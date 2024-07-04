@@ -30,6 +30,10 @@ choco install packer -y
 
 Téléchargez et installez la dernière version de Vagrant depuis le site officiel : [https://www.vagrantup.com/downloads](https://www.vagrantup.com/downloads).
 
+# Lien pour télécharger VAGRANT
+- https://medium.com/@cnivesh/how-to-set-up-vagrant-on-windows-3bc841ea4811
+- https://developer.hashicorp.com/vagrant/install?product_intent=vagrant
+
 #### 3. Téléchargement et configuration de Metasploitable3 :
 
 ##### a. Clonez le repository Metasploitable3 depuis GitHub :
