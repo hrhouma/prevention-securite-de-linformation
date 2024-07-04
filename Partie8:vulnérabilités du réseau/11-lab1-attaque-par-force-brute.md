@@ -29,6 +29,11 @@
     ```
    Cela vous donnera la liste des ports ouverts et des services qui y sont associés. Recherchez spécifiquement le port 22/tcp qui est utilisé par le service SSH.
 
+- Par exemple, j'ai scanné une machine windows 10 qui est sur le même natnetwork de notre machine Kalilinux (connectés via un naatnetwork)
+
+![image](https://github.com/hrhouma/prevention-securite-de-linformation/assets/10111526/c1b39a58-f4f9-4d6a-84f6-a0bd41ba4282)
+
+
 #### Étape 3: Configuration de Metasploit
 1. Ouvrez la console Metasploit :
     ```bash
