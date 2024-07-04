@@ -1,6 +1,4 @@
-D'accord, voici un guide étape par étape pour installer Metasploitable3 sous Windows en utilisant PowerShell avec Chocolatey pour la gestion des packages :
-
-### Étapes d'Installation de Metasploitable3 sous Windows avec PowerShell
+# Étapes d'Installation de Metasploitable3 sous Windows avec PowerShell dans WINDOWS
 
 #### 1. Installation de Chocolatey (si pas déjà installé) :
 
