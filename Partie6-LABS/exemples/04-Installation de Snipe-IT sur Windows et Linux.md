@@ -165,37 +165,71 @@ L'utilisation de Composer est indispensable pour installer et maintenir Snipe-IT
 
 
 [1]: https://snipe-it.readme.io/docs/requirements
+
 [2]: https://snipe-it.readme.io/docs/installation
+
 [5]: https://blog.masteringmdm.com/snipe-it-installation-on-windows-server/
+
 [12]: https://github.com/snipe/snipe-it/issues/10932
+
 [13]: https://snipe-it.readme.io/docs/install-dependencies
+
 [1] https://snipe-it.readme.io/docs/requirements
+
 [2] https://snipe-it.readme.io/docs/installation
+
 [3] https://www.reddit.com/r/sysadmin/comments/8m3541/snipeit_server_hardware_requirements/
+
 [4] https://github.com/snipe/snipe-it/issues/2639
+
 [5] https://blog.masteringmdm.com/snipe-it-installation-on-windows-server/
+
 [6] https://github.com/snipe/snipe-it/issues/14238
+
 [7] https://ipv6.rs/tutorial/Windows_11/Snipe_IT/
+
 [8] https://www.rosehosting.com/blog/how-to-install-snipe-it-on-ubuntu-22-04/
+
 [9] https://www.youtube.com/watch?v=aZhYVksU0J0
+
 [10] https://ipv6.rs/tutorial/POP!_OS_Latest/Snipe_IT/
+
 [11] https://docs.vultr.com/how-to-install-snipe-it-on-ubuntu-20-04
+
 [12] https://github.com/snipe/snipe-it/issues/10932
+
 [13] https://snipe-it.readme.io/docs/install-dependencies
+
 [14] https://github.com/snipe/snipe-it/issues/7121
+
 [15] https://www.youtube.com/watch?v=eA5RpNXJPxo
+
 [1] https://snipe-it.readme.io/docs/installation
+
 [2] https://www.youtube.com/watch?v=joiUjMhDaOk
+
 [3] https://www.rosehosting.com/blog/how-to-install-snipe-it-on-ubuntu-22-04/
+
 [4] https://snipe-it.readme.io/docs/windowsiis
+
 [5] https://www.atlantic.net/dedicated-server-hosting/how-to-install-snipe-it-on-ubuntu-22-04/
+
 [6] https://blog.masteringmdm.com/snipe-it-installation-on-windows-server/
+
 [7] https://www.youtube.com/watch?v=eA5RpNXJPxo
+
 [8] https://www.youtube.com/watch?v=h5hMWkgTusc
+
 [9] https://snipe-it.readme.io/docs/linuxosx
+
 [10] https://snipeitapp.com/download
+
 [11] https://docs.vultr.com/how-to-install-snipe-it-on-ubuntu-20-04
+
 [12] https://www.youtube.com/watch?v=qLbxcaI0aPU
+
 [13] https://www.youtube.com/watch?v=Cn0YT1TLDNI
+
 [14] https://www.youtube.com/watch?v=T0HzzMTqH4o
+
 [15] https://www.youtube.com/watch?v=11W7Jukp9XE
