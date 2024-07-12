@@ -1,4 +1,4 @@
-
+# Guide détaillé pour installer GLPI sur un serveur Linux :
 - GLPI peut s'installer sur Windows. 
 - Voici les principales étapes pour installer GLPI sur un système Windows :
 
