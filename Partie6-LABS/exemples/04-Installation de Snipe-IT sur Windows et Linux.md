@@ -119,7 +119,71 @@
 
 Ces étapes vous permettront d'installer et de configurer Snipe-IT sur Windows et Linux. Pour plus de détails, vous pouvez consulter la documentation officielle de Snipe-IT[1][3][6][9].
 
-Citations:
+
+# Annexe :
+
+- Il est obligatoire d'utiliser Composer pour installer Snipe-IT.
+- Composer est un gestionnaire de dépendances pour PHP, et Snipe-IT utilise plusieurs packages PHP qui doivent être installés et gérés via Composer.
+
+### Raisons pour lesquelles Composer est nécessaire :
+
+1. **Gestion des dépendances** :
+   Composer permet de gérer les dépendances nécessaires pour que Snipe-IT fonctionne correctement. Il télécharge et installe automatiquement les bibliothèques requises et leurs versions compatibles[1][2].
+
+2. **Installation des packages** :
+   Lors de l'installation de Snipe-IT, Composer est utilisé pour installer les packages PHP nécessaires à partir du fichier `composer.json` fourni avec Snipe-IT[5][13].
+
+3. **Mises à jour et maintenance** :
+   Composer facilite la mise à jour des dépendances et assure que toutes les bibliothèques utilisées par Snipe-IT sont à jour et compatibles entre elles[12].
+
+### Étapes d'utilisation de Composer pour installer Snipe-IT :
+
+1. **Télécharger et installer Composer** :
+   - Sur Windows, vous pouvez télécharger l'installateur Composer depuis le site officiel et l'exécuter.
+   - Sur Linux, vous pouvez utiliser les commandes suivantes :
+     ```bash
+     curl -sS https://getcomposer.org/installer | php
+     sudo mv composer.phar /usr/local/bin/composer
+     ```
+
+2. **Installer les dépendances de Snipe-IT** :
+   - Naviguez vers le répertoire de Snipe-IT et exécutez :
+     ```bash
+     composer install --no-dev --prefer-source
+     ```
+
+3. **Générer la clé de l'application** :
+   - Exécutez la commande suivante pour générer une clé unique pour votre instance Snipe-IT :
+     ```bash
+     php artisan key:generate
+     ```
+
+### Conclusion
+
+L'utilisation de Composer est indispensable pour installer et maintenir Snipe-IT. Il assure que toutes les dépendances nécessaires sont correctement installées et gérées, ce qui est crucial pour le bon fonctionnement de l'application.
+
+
+
+[1]: https://snipe-it.readme.io/docs/requirements
+[2]: https://snipe-it.readme.io/docs/installation
+[5]: https://blog.masteringmdm.com/snipe-it-installation-on-windows-server/
+[12]: https://github.com/snipe/snipe-it/issues/10932
+[13]: https://snipe-it.readme.io/docs/install-dependencies
+[1] https://snipe-it.readme.io/docs/requirements
+[2] https://snipe-it.readme.io/docs/installation
+[3] https://www.reddit.com/r/sysadmin/comments/8m3541/snipeit_server_hardware_requirements/
+[4] https://github.com/snipe/snipe-it/issues/2639
+[5] https://blog.masteringmdm.com/snipe-it-installation-on-windows-server/
+[6] https://github.com/snipe/snipe-it/issues/14238
+[7] https://ipv6.rs/tutorial/Windows_11/Snipe_IT/
+[8] https://www.rosehosting.com/blog/how-to-install-snipe-it-on-ubuntu-22-04/
+[9] https://www.youtube.com/watch?v=aZhYVksU0J0
+[10] https://ipv6.rs/tutorial/POP!_OS_Latest/Snipe_IT/
+[11] https://docs.vultr.com/how-to-install-snipe-it-on-ubuntu-20-04
+[12] https://github.com/snipe/snipe-it/issues/10932
+[13] https://snipe-it.readme.io/docs/install-dependencies
+[14] https://github.com/snipe/snipe-it/issues/7121
+[15] https://www.youtube.com/watch?v=eA5RpNXJPxo
 [1] https://snipe-it.readme.io/docs/installation
 [2] https://www.youtube.com/watch?v=joiUjMhDaOk
 [3] https://www.rosehosting.com/blog/how-to-install-snipe-it-on-ubuntu-22-04/
