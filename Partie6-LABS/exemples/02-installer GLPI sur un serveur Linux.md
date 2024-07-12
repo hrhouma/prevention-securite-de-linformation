@@ -90,17 +90,31 @@ Votre instance GLPI est maintenant installée et prête à être utilisée. N'ou
 
 Citations:
 [1] https://glpi-install.readthedocs.io/en/latest/
+
 [2] https://glpi-install.readthedocs.io/en/latest/install/index.html
+
 [3] https://glpi-project.org/fr/glpi-documentation/
+
 [4] https://glpi-project.org/how-to-install-glpi-on-ubuntu/
+
 [5] https://www.tecmint.com/install-glpi-asset-management-rhel/
+
 [6] https://glpi-project.org/fr/comment-installer-glpi-sur-ubuntu/
+
 [7] https://faq.teclib.com/03_knowledgebase/procedures/install_glpi/
+
 [8] https://ipv6.rs/tutorial/Fedora_Server_Latest/GLPI/
+
 [9] https://openclassrooms.com/fr/courses/1730516-gerez-votre-parc-informatique-avec-glpi/5993816-installez-votre-serveur-glpi
+
 [10] https://www.youtube.com/watch?v=Dc0dy1Z6MyM
+
 [11] https://www.awoui.com/post/installation-de-glpi
+
 [12] https://www.youtube.com/watch?v=AF5pJaQJXvU
+
 [13] https://www.it-connect.fr/installation-pas-a-pas-de-glpi-10-sur-debian-12/
+
 [14] https://glpi-project.org/documentation/
+
 [15] https://github.com/glpi-project/doc-install
