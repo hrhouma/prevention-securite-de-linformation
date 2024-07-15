@@ -1,4 +1,6 @@
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 ### Gestion des Permissions et Accès - PARTIE 01
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ---
 
@@ -339,5 +341,132 @@ oauth2Client.getToken(code, (err, token) => {
 ### Conclusion
 
 La gestion des permissions et des accès est une composante critique de la sécurité des systèmes informatiques. En appliquant les bonnes pratiques et en utilisant les outils appropriés, on peut garantir que les ressources sont protégées contre les accès non autorisés tout en permettant aux utilisateurs légitimes d'accomplir leurs tâches. L'adoption de modèles de contrôle d'accès comme DAC, MAC, RBAC, et ABAC permet de s'adapter aux différents besoins de sécurité et de flexibilité des organisations.
+
+[Revenir en haut](#table-des-matières)
+
+
+
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
+# Quiz sur la Gestion des Permissions et Accès
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
+
+---
+
+#### Instructions
+Répondez aux questions suivantes en sélectionnant la meilleure option parmi les choix proposés. Chaque question vaut 1 point.
+
+---
+
+**1. Qu'est-ce que le Contrôle d'Accès Discrétionnaire (DAC) ?**
+
+A. Un modèle où les administrateurs définissent des politiques de sécurité strictes.  
+B. Un modèle où les propriétaires des ressources déterminent qui peut accéder à leurs ressources.  
+C. Un modèle qui utilise des attributs des utilisateurs et des ressources pour déterminer les permissions.  
+D. Un modèle qui attribue des permissions aux rôles plutôt qu'aux utilisateurs individuels.
+
+---
+
+**2. Lequel des modèles de contrôle d'accès suivants est souvent utilisé dans les environnements militaires ?**
+
+A. DAC  
+B. MAC  
+C. RBAC  
+D. ABAC
+
+---
+
+**3. Quelle commande sous Linux est utilisée pour changer les permissions d'un fichier ou d'un dossier ?**
+
+A. `chown`  
+B. `chmod`  
+C. `umask`  
+D. `icacls`
+
+---
+
+**4. En AWS, quel service est utilisé pour gérer les permissions des utilisateurs et des groupes ?**
+
+A. Azure AD  
+B. Google Cloud IAM  
+C. AWS IAM  
+D. NTFS
+
+---
+
+**5. Quelle est la fonction principale de OAuth dans les applications web ?**
+
+A. Gérer les permissions des fichiers et dossiers.  
+B. Contrôler l'accès aux ressources web.  
+C. Permettre aux utilisateurs de partager des ressources entre applications.  
+D. Auditer les logs d'accès.
+
+---
+
+**6. Quel principe recommande de n'accorder que les permissions nécessaires pour accomplir une tâche ?**
+
+A. Principe de la Séparation des Rôles  
+B. Principe du Moindre Privilege  
+C. Principe de la Journalisation  
+D. Principe de la Révision Régulière
+
+---
+
+**7. Dans un système Linux, quelle commande est utilisée pour changer le propriétaire d'un fichier ou d'un dossier ?**
+
+A. `chmod`  
+B. `chown`  
+C. `icacls`  
+D. `grant`
+
+---
+
+**8. Qu'est-ce qu'une politique JSON dans le contexte d'AWS IAM ?**
+
+A. Un script pour automatiser la gestion des permissions.  
+B. Une commande pour changer les permissions des fichiers.  
+C. Une description des permissions attribuées aux utilisateurs et groupes.  
+D. Un rôle personnalisé dans Azure AD.
+
+---
+
+**9. Quel modèle de contrôle d'accès utilise des rôles pour simplifier la gestion des permissions ?**
+
+A. DAC  
+B. MAC  
+C. RBAC  
+D. ABAC
+
+---
+
+**10. Quelle commande Windows est utilisée pour modifier les ACLs d'un fichier ou dossier ?**
+
+A. `chown`  
+B. `chmod`  
+C. `umask`  
+D. `icacls`
+
+---
+
+#### Exemples Pratiques (Questions Ouvertes)
+
+**11. Décrivez un scénario où le contrôle d'accès basé sur les attributs (ABAC) serait plus avantageux que le contrôle d'accès basé sur les rôles (RBAC).**
+
+---
+
+**12. Expliquez comment vous configureriez les permissions NTFS pour un dossier spécifique sous Windows pour qu'un utilisateur puisse lire et écrire dans ce dossier, mais ne puisse pas le supprimer.**
+
+---
+
+**13. Donnez un exemple de politique JSON dans AWS IAM permettant à un utilisateur de seulement lire des objets dans un bucket S3 nommé "example-bucket".**
+
+---
+
+**14. En tant qu'administrateur système, comment utiliseriez-vous `chmod` et `chown` pour permettre à un utilisateur nommé "user" de lire, écrire et exécuter un script nommé "script.sh" sous Linux ?**
+
+---
+
+**15. Quelle stratégie utiliseriez-vous pour auditer les permissions des utilisateurs dans une organisation, et pourquoi est-elle importante ?**
+
+---
 
 [Revenir en haut](#table-des-matières)
