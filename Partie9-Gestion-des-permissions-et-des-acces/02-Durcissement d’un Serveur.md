@@ -1,4 +1,6 @@
-# 02 - Gestion des Permissions et Accès - PARTIE 02 (Durcissement d’un Serveur)
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
+# COURS - 02 - Gestion des Permissions et Accès - PARTIE 02 (Durcissement d’un Serveur)
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 Le durcissement d'un serveur est un ensemble de pratiques visant à renforcer la sécurité des systèmes informatiques contre les menaces potentielles. Ce cours détaillé couvre les différents aspects du durcissement d'un serveur, en se concentrant sur les politiques réseau, la sécurité des pods, la configuration de l'authentification et de l'autorisation, la gestion de la charge, la haute disponibilité, et l'autoscaling.
 
@@ -176,3 +178,157 @@ aws autoscaling create-auto-scaling-group --auto-scaling-group-name my-auto-scal
 ### <a name="conclusion"></a> 6. Conclusion
 
 Le durcissement d’un serveur est un processus continu qui nécessite une vigilance constante et une adaptation aux nouvelles menaces. En mettant en œuvre des politiques réseau strictes, en utilisant RBAC pour la gestion des accès, et en assurant une haute disponibilité grâce à la gestion de la charge et à l'autoscaling, les administrateurs peuvent renforcer la sécurité de leurs serveurs et protéger les données sensibles. L'intégration de ces pratiques dans le cadre global de la sécurité informatique contribue à la résilience des infrastructures contre les cyberattaques.
+
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
+# QUIZ
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
+
+### Quiz: Durcissement d’un Serveur - Gestion des Permissions et Accès
+
+#### 1. Introduction au Durcissement de Serveur
+
+1. Quel est l'objectif principal du durcissement d'un serveur ?
+   - A. Améliorer les performances du serveur
+   - B. Renforcer la sécurité contre les menaces potentielles
+   - C. Simplifier la gestion des ressources
+   - D. Augmenter la capacité de stockage
+
+#### 2. Politiques Réseau et Sécurité
+
+2. Quelle est la fonction principale d'un pare-feu dans la gestion du trafic réseau ?
+   - A. Augmenter la vitesse du réseau
+   - B. Bloquer ou autoriser le trafic réseau basé sur des règles spécifiques
+   - C. Surveiller les activités des utilisateurs
+   - D. Sauvegarder les données du serveur
+
+3. Quelle commande `iptables` permet d'autoriser le trafic sur le port 22 (SSH) ?
+   - A. `sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT`
+   - B. `sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT`
+   - C. `sudo iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT`
+   - D. `sudo iptables -A FORWARD -p tcp --dport 22 -j ACCEPT`
+
+4. Quel est l'objectif principal de la segmentation réseau ?
+   - A. Augmenter la bande passante du réseau
+   - B. Limiter la propagation des attaques
+   - C. Faciliter la gestion des adresses IP
+   - D. Réduire les coûts de maintenance
+
+#### 3. Authentification et Autorisation Basées sur les Rôles (RBAC)
+
+5. Que signifie RBAC ?
+   - A. Role-Based Authentication Control
+   - B. Resource-Based Access Control
+   - C. Role-Based Access Control
+   - D. Resource-Based Authentication Control
+
+6. Quelle est la première étape dans la mise en œuvre de RBAC ?
+   - A. Assigner des rôles aux utilisateurs
+   - B. Définir des politiques d'accès
+   - C. Créer des rôles en fonction des responsabilités
+   - D. Configurer les permissions des utilisateurs
+
+#### 4. Application des Politiques Réseau
+
+7. Quelle méthode peut être utilisée pour analyser et filtrer les paquets réseau ?
+   - A. Pare-feu
+   - B. IDS/IPS
+   - C. Filtrage des paquets
+   - D. VPN
+
+8. Quelle commande Cisco IOS est utilisée pour créer une classe QoS pour le trafic VOIP ?
+   - A. `class-map match-any VOIP`
+   - B. `policy-map QOS`
+   - C. `interface GigabitEthernet0/1`
+   - D. `service-policy output QOS`
+
+#### 5. Gestion de la Charge et Haute Disponibilité
+
+9. Quel est le rôle d'un load balancer ?
+   - A. Augmenter la capacité de stockage du serveur
+   - B. Répartir la charge de travail entre plusieurs serveurs
+   - C. Surveiller les activités réseau
+   - D. Sauvegarder les données du serveur
+
+10. Quelle configuration AWS permet d'ajuster automatiquement les ressources en fonction de la demande ?
+    - A. AWS S3
+    - B. AWS EC2 Auto Scaling
+    - C. AWS Lambda
+    - D. AWS CloudFormation
+
+#### 6. Conclusion
+
+11. Pourquoi le durcissement d’un serveur est-il un processus continu ?
+    - A. Pour améliorer les performances du serveur
+    - B. Pour s'adapter aux nouvelles menaces de sécurité
+    - C. Pour réduire les coûts de maintenance
+    - D. Pour augmenter la capacité de stockage
+
+[Revenir en haut](#table-des-matieres)
+
+
+#### 2. Politiques Réseau et Sécurité (Suite)
+
+12. Quel est l'avantage principal d'utiliser un VPN pour les connexions à distance ?
+    - A. Augmenter la vitesse de la connexion
+    - B. Chiffrer les communications pour une sécurité accrue
+    - C. Réduire les coûts de bande passante
+    - D. Simplifier la configuration réseau
+
+13. Quel outil peut être utilisé pour détecter et prévenir les tentatives d'intrusion ?
+    - A. VPN
+    - B. IDS/IPS
+    - C. ACL
+    - D. VLAN
+
+#### 3. Authentification et Autorisation Basées sur les Rôles (RBAC) (Suite)
+
+14. Quelle commande PowerShell permet d'ajouter un utilisateur à un groupe dans Windows Active Directory ?
+    - A. `Add-ADUserToGroup`
+    - B. `New-ADUser`
+    - C. `Add-ADGroupMember`
+    - D. `Set-ADUser`
+
+15. Dans un environnement RBAC, qui détermine les permissions associées à chaque rôle ?
+    - A. L'administrateur système
+    - B. Les utilisateurs finaux
+    - C. Les développeurs d'applications
+    - D. Les responsables de la sécurité
+
+#### 4. Application des Politiques Réseau (Suite)
+
+16. Quelle est la différence principale entre un IDS et un IPS ?
+    - A. Un IDS détecte les intrusions tandis qu'un IPS les bloque
+    - B. Un IDS bloque les intrusions tandis qu'un IPS les détecte
+    - C. Un IDS et un IPS ont la même fonction
+    - D. Un IDS est utilisé pour le chiffrement des données, un IPS pour la détection des intrusions
+
+17. Quelle configuration permet d'assurer une qualité de service (QoS) optimale pour le trafic VoIP sur un réseau Cisco ?
+    - A. Utiliser des pare-feu pour filtrer le trafic
+    - B. Créer des VLAN pour le trafic VoIP
+    - C. Définir des priorités pour le trafic VoIP avec QoS
+    - D. Utiliser un VPN pour sécuriser le trafic VoIP
+
+#### 5. Gestion de la Charge et Haute Disponibilité (Suite)
+
+18. Quel type de load balancer distribue les requêtes en fonction de la charge actuelle des serveurs ?
+    - A. Round-robin
+    - B. Least connections
+    - C. Source IP hash
+    - D. Random
+
+19. Quelle est l'avantage principal de la réplication des données sur plusieurs serveurs ?
+    - A. Réduire les coûts de stockage
+    - B. Augmenter la sécurité des données
+    - C. Assurer la disponibilité des données en cas de panne
+    - D. Simplifier la gestion des utilisateurs
+
+20. Quelle commande AWS permet de créer un groupe d'auto-scaling avec une configuration de lancement spécifique ?
+    - A. `aws ec2 create-auto-scaling-group`
+    - B. `aws autoscaling create-auto-scaling-group`
+    - C. `aws s3 create-bucket`
+    - D. `aws rds create-db-instance`
+
+[Revenir en haut](#table-des-matieres)
+
+
+
