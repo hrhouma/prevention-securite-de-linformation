@@ -1,4 +1,4 @@
-### Durcissement d’un Serveur
+# 02 - Gestion des Permissions et Accès - PARTIE 02 (Durcissement d’un Serveur)
 
 Le durcissement d'un serveur est un ensemble de pratiques visant à renforcer la sécurité des systèmes informatiques contre les menaces potentielles. Ce cours détaillé couvre les différents aspects du durcissement d'un serveur, en se concentrant sur les politiques réseau, la sécurité des pods, la configuration de l'authentification et de l'autorisation, la gestion de la charge, la haute disponibilité, et l'autoscaling.
 
