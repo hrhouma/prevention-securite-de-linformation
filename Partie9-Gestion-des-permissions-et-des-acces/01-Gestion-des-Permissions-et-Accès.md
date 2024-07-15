@@ -1,5 +1,5 @@
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-### Gestion des Permissions et Accès - PARTIE 01
+# 1 - Gestion des Permissions et Accès - PARTIE 01
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ---
@@ -237,8 +237,9 @@ oauth2Client.getToken(code, (err, token) => {
 [Revenir en haut](#table-des-matières)
 
 ---
-
-### Exemples Pratiques et Études de Cas
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
+# 2 - Exemples Pratiques et Études de Cas
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 #### Exemple 1: Gestion des Permissions dans une Entreprise
 
@@ -261,8 +262,9 @@ oauth2Client.getToken(code, (err, token) => {
 [Revenir en haut](#table-des-matières)
 
 ---
-
-### Exercices Pratiques
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
+# 3 -  Exercices Pratiques
+🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 1. **Exercice 1**: Configurez les permissions NTFS pour un dossier spécifique sous Windows en utilisant `icacls`.
     ```bash
@@ -347,7 +349,7 @@ La gestion des permissions et des accès est une composante critique de la sécu
 
 
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
-# Quiz sur la Gestion des Permissions et Accès
+# 4 - Quiz sur la Gestion des Permissions et Accès
 🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇🥇
 
 ---
