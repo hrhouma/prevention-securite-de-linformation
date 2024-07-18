@@ -32,17 +32,31 @@ Il existe de nombreux tutoriels détaillés et vidéos expliquant le processus d
 
 Citations:
 [1] https://www.youtube.com/watch?v=Hlhe1B_tqxI
+
 [2] https://glpi-install.readthedocs.io/en/latest/
+
 [3] https://forum.glpi-project.org/viewtopic.php?id=287005
+
 [4] https://glpi-project.org/fr/telecharger-glpi/
+
 [5] https://www.youtube.com/watch?v=mX4gbYDbyIo
+
 [6] https://glpi-project.org/glpi-agent-1-7/
+
 [7] https://forum.glpi-project.org/viewforum.php?id=7
+
 [8] https://www.reddit.com/r/sysadmin/comments/142qvlf/how_to_install_and_configure_glpi_on_windows/
+
 [9] https://glpi-project.org
+
 [10] https://www.youtube.com/watch?v=xP4Y05g-rXM
+
 [11] https://www.youtube.com/watch?v=mwKxsGCYlSE
+
 [12] https://glpi-project.org/downloads/
+
 [13] https://forum.glpi-project.org/viewtopic.php?id=289325
+
 [14] https://forum.glpi-project.org/viewtopic.php?id=160409
+
 [15] https://glpi-project.org/glpi-agent-1-5/
