@@ -52,7 +52,7 @@ Ajoutez le contenu suivant :
 
 ```
 <VirtualHost *:80>
-    ServerName your_domain_or_ip
+    ServerName localhost
     DocumentRoot /var/www/html/glpi/public
     
     <Directory /var/www/html/glpi/public>
@@ -75,8 +75,12 @@ sudo systemctl restart apache2
 ```
 
 7. Installation via l'interface web :
-   - Ouvrez un navigateur et accédez à http://your_domain_or_ip/glpi
+   - Ouvrez un navigateur et accédez à http://127.0.0.1/glpi
    - Suivez l'assistant d'installation en sélectionnant la langue, acceptant la licence, et en fournissant les informations de la base de données.
+
+- Base de données : localhost
+- Utilisateur : glpiuser
+- Mot de passe : password
 
 8. Finalisation :
    - Une fois l'installation terminée, connectez-vous avec les identifiants par défaut (glpi/glpi pour l'administrateur)
@@ -87,6 +91,9 @@ sudo systemctl restart apache2
      ```
 
 Votre instance GLPI est maintenant installée et prête à être utilisée. N'oubliez pas de configurer les sauvegardes régulières et de maintenir le système à jour.
+
+
+
 
 Citations:
 [1] https://glpi-install.readthedocs.io/en/latest/
