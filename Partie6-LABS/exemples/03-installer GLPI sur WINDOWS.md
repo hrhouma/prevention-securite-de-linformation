@@ -31,6 +31,7 @@
 Il existe de nombreux tutoriels détaillés et vidéos expliquant le processus d'installation pas à pas sur Windows[1][5][10]. L'utilisation d'un pack comme XAMPP simplifie grandement l'installation des prérequis sur Windows.
 
 Citations:
+
 [1] https://www.youtube.com/watch?v=Hlhe1B_tqxI
 
 [2] https://glpi-install.readthedocs.io/en/latest/
