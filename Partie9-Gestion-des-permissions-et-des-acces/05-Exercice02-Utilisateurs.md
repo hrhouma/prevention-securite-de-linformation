@@ -2,7 +2,7 @@
 
 Pour créer des utilisateurs et les ajouter au groupe `sudoers` (qui leur donne des privilèges administratifs), il existe plusieurs méthodes détaillées ci-dessous. **Remarque : La méthode 5 utilisant Ansible n'est pas obligatoire et peut être ignorée par les étudiants.**
 
-#### Méthode 1 : Utiliser la ligne de commande
+# Méthode 1 : Utiliser la ligne de commande
 
 1. **Créer un nouvel utilisateur nommé Albert :**
    ```bash
@@ -25,7 +25,7 @@ Pour créer des utilisateurs et les ajouter au groupe `sudoers` (qui leur donne 
 
    Cette commande affichera les groupes auxquels appartient Albert, y compris `sudo` s'il a été ajouté correctement.
 
-#### Méthode 2 : Modifier directement le fichier sudoers
+# Méthode 2 : Modifier directement le fichier sudoers
 
 1. **Ouvrir le fichier sudoers avec visudo :**
    ```bash
@@ -42,7 +42,7 @@ Pour créer des utilisateurs et les ajouter au groupe `sudoers` (qui leur donne 
 
    Cela permet à `albert` d'exécuter toutes les commandes en tant que n'importe quel utilisateur ou groupe.
 
-#### Méthode 3 : Utiliser des groupes spécifiques pour les privilèges sudo
+# Méthode 3 : Utiliser des groupes spécifiques pour les privilèges sudo
 
 1. **Créer un groupe spécifique pour sudo :**
    ```bash
@@ -65,7 +65,7 @@ Pour créer des utilisateurs et les ajouter au groupe `sudoers` (qui leur donne 
    %admin ALL=(ALL) ALL
    ```
 
-#### Méthode 4 : Utiliser des scripts pour automatiser le processus
+# Méthode 4 (À IGNORER): Utiliser des scripts pour automatiser le processus
 
 1. **Créer un script shell pour ajouter des utilisateurs :**
    ```bash
@@ -125,6 +125,6 @@ Ansible est un outil d'automatisation qui peut gérer les configurations à gran
    ansible-playbook ajouter_utilisateur.yml
    ```
 
-### Conclusion
+# Conclusion
 
 Chaque méthode a ses avantages en fonction du contexte et des besoins spécifiques. Utiliser la ligne de commande est simple et direct, tandis que l'utilisation de scripts permet d'automatiser le processus, ce qui est utile pour gérer un grand nombre d'utilisateurs.
