@@ -1,3 +1,5 @@
+# https://medium.com/@R00tendo/hacking-wifi-devices-and-networks-b383f3cbfef5
+
 # Introduction
 Dans cet article, je vais vous guider à travers le piratage des points d'accès WIFI et des dispositifs compatibles WIFI. Veuillez noter que pour suivre pleinement ce guide, vous avez besoin d'une carte sans fil capable d'injection de paquets et prenant en charge le mode moniteur. Si vous n'êtes pas sûr que votre carte prenne en charge le mode moniteur, vous pouvez la tester de cette manière :
 
