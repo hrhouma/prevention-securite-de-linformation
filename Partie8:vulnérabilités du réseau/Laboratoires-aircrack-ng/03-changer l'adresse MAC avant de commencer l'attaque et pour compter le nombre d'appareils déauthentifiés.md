@@ -1,4 +1,4 @@
-- Voici le script modifié pour changer l'adresse MAC avant de commencer l'attaque et pour compter le nombre d'appareils déauthentifiés.
+- Changer l'adresse MAC avant de commencer l'attaque et pour compter le nombre d'appareils déauthentifiés.
 
 ```bash
 #!/bin/bash
