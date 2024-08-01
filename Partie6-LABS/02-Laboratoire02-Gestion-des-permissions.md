@@ -1,6 +1,6 @@
-### Choix de Laboratoire
+# Choix de Laboratoire
 
-Chers étudiants, pour notre prochain laboratoire sur la gestion des permissions et des utilisateurs sous Linux, vous avez le choix entre quatre options différentes. Chaque option est conçue pour renforcer vos compétences et votre compréhension de différents aspects de la sécurité et de la gestion des systèmes sous Linux. Veuillez lire attentivement chaque option et choisir celle qui correspond le mieux à vos intérêts et objectifs d'apprentissage.
+Chers étudiants, pour notre prochain laboratoire sur la gestion des permissions et des utilisateurs sous Linux, vous avez le choix entre cinq options différentes. Chaque option est conçue pour renforcer vos compétences et votre compréhension de différents aspects de la sécurité et de la gestion des systèmes sous Linux. Veuillez lire attentivement chaque option et choisir celle qui correspond le mieux à vos intérêts et objectifs d'apprentissage.
 
 #### **Option 1: Gestion des Permissions et des Utilisateurs sur Kali Linux et Ubuntu 22.04**
 - **Focus**: Utilisation de commandes basiques comme `chmod`, `chown`, `useradd`, et `visudo`.
