@@ -63,10 +63,12 @@ Vous observerez les changements de permissions après chaque commande.
 #### a. Création et gestion de nouveaux utilisateurs
 ```bash
 sudo useradd -m nouvelutilisateur  # Crée un nouvel utilisateur avec un répertoire personnel
+ls -l /home                         # Voir le répertoire créé pour cet utilisateur + les permissions accordées
 sudo passwd nouvelutilisateur      # Définit un mot de passe pour le nouvel utilisateur
 sudo usermod -aG sudo nouvelutilisateur  # Ajoute l'utilisateur au groupe sudo
 groups nouvelutilisateur           # Vérifie les groupes de l'utilisateur
 ```
+### Créez un utilisateur avec votre nom et reéxécutez les mêmes commandes ci-haut.
 
 #### b. Manipulation avancée des utilisateurs
 ```bash
