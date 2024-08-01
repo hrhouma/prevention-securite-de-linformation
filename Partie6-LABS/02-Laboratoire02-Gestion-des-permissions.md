@@ -46,11 +46,15 @@ Cet exercice vous guide à travers les commandes de gestion des permissions et d
 
 #### a. Créer et gérer un fichier de test
 ```bash
-touch monfichier.txt
-chmod u+x monfichier.txt  # Ajoute la permission d'exécution pour l'utilisateur
-chmod +x monfichier.txt   # Ajoute la permission d'exécution pour tous
-chmod g+w monfichier.txt  # Ajoute la permission d'écriture pour le groupe
-ls -l monfichier.txt
+touch monfichier1.txt
+touch monfichier2.txt
+touch monfichier3.txt
+chmod u+x monfichier1.txt  # Ajoute la permission d'exécution pour l'utilisateur
+chmod +x monfichier2.txt   # Ajoute la permission d'exécution pour tous
+chmod g+w monfichier3.txt  # Ajoute la permission d'écriture pour le groupe
+ls -l monfichier1.txt
+ls -l monfichier2.txt
+ls -l monfichier3.txt
 ```
 Vous observerez les changements de permissions après chaque commande.
 
