@@ -68,13 +68,18 @@ sudo passwd nouvelutilisateur      # Définit un mot de passe pour le nouvel uti
 sudo usermod -aG sudo nouvelutilisateur  # Ajoute l'utilisateur au groupe sudo
 groups nouvelutilisateur           # Vérifie les groupes de l'utilisateur
 ```
-### Créez un utilisateur avec votre nom et reéxécutez les mêmes commandes ci-haut.
+# application 1 :  Créez un utilisateur avec votre nom et reéxécutez les mêmes commandes ci-haut.
+# application 2 :  déconnectez vous de la machine linux et reconnecter avec votre utilisateur + mot de passe.
+# application 3 :  déconnectez vous de la machine linux et reconnecter avec l'utilisateur proncipal que vous aviez déjà.
 
 #### b. Manipulation avancée des utilisateurs
 ```bash
 sudo deluser nouvelutilisateur sudo  # Retire l'utilisateur du groupe sudo
 sudo deluser --remove-home nouvelutilisateur  # Supprime l'utilisateur et son répertoire personnel
 ```
+
+# application 4 :  Retirevotre utilisateur du groupe sudo
+# application 5 :  Supprimer votre utilisateur et son répertoire personnel, vérifier avec la commande suivante : (ls -l /home) .
 
 ### Partie 3: Utilisation de `chown` et `chgrp`
 
